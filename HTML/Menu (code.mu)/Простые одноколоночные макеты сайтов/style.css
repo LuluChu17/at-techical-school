@@ -1,0 +1,42 @@
+#wrapper{
+    margin: 40px auto;
+    width: 800px;
+    border: 1px solid plum;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: plum;
+}
+
+#menu a{
+    margin: 0 5px;
+    padding: 18px 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font: bold 14px monospace;
+}
+
+#menu a:hover, #menu a.active{
+    color: plum;
+    background-color: whitesmoke;
+}
+
+#content{
+    padding: 0 30px 20px;
+}
+
+#content h1{
+    text-align: center;
+    margin: 0 0 0 10px;
+    font-family:  monospace;
+}
+
+#content p{
+    padding: 0 10px;
+    margin-bottom: 40px;
+    font: 18px/1.3 monospace;
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+#house{
+	position: relative;
+	top: 50px;
+	left: 450px;
+	width: 300px;
+	/*border: 8px double plum;*/
+}
+
+#wall{
+	box-sizing: border-box;
+	width: 300px;
+	height: 350px;
+	border: 8px double plum;
+}
+
+#cover{
+	width: 0;
+	height: 0;
+	border-left: 150px double transparent;
+	border-right: 150px double transparent;
+	border-top: 150px double transparent;
+	border-bottom: 150px solid plum;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body{
+			margin: 0;
+			font-family: monospace;
+		}
+
+		.page{
+			background: linear-gradient(#fdde,#fddf);
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.top{
+			margin-top: 20px;
+
+			position: relative;
+			display: flex;
+		}
+
+		.header-1{
+			margin: auto;
+			display: flex;
+
+			align-items: baseline;
+
+		}
+
+		.cosmos-1{
+			font-size: 80px;
+			
+		}
+
+		.header-1-menu{
+			margin-left: 80px;
+			font-size: 36px;
+		}
+
+		.mars{
+			color:#801818;
+
+		}
+
+		.earth{
+			color: #44944A;
+			font-size: 28px;
+		}
+
+		.moon{
+			color: #B5B8B1;
+			font-size: 20px;
+		}
+
+		.sun{
+			font-size: 64px;
+			color: #FFCF48;
+		}
+
+		a{
+			text-decoration: line-through;
+
+			color: dimgray;
+
+			transition: color 0.17s linear;
+		}
+
+		a:hover{
+			text-decoration: none;
+			color: plum;
+		}
+
+/*		*/
+		.main{
+			margin-top: 270px;
+			position: relative;
+			display: flex;
+		}
+		.header-2{
+			text-align: justify;
+			margin-left: -240px;
+
+			display: flex;
+
+			font-size: 36px;
+
+			transform: rotate(90deg);
+		}
+
+		.header-menu{
+			padding: 17px;
+		}
+/*		*/
+		
+		.foot{
+			position: relative;
+			display: flex;
+		}
+
+		button{
+			background-color: #4CAF50;
+		    color: white;
+		    padding: 16px;
+		    font-size: 16px;
+		    border: none;
+		}
+
+		.footage{
+			
+			margin: auto;
+
+			font-size: 36px;
+		}
+
+		.foot-menu{
+			display: none;
+		    position: absolute;
+		    background-color: #f1f1f1;
+		    min-width: 100px;
+		    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+		    z-index: 1;
+		}
+
+		.foot-menu a{
+			color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		}
+
+		.footage{
+			position: relative;
+   			display: inline-block;
+		}
+
+		.footage:hover .foot-menu{display: block; color:#44944A}
+	</style>
+	<title>menu</title>
+</head>
+<body>
+	<div class="page">
+		<div class="top">
+			<div class="header-1">
+				
+				<div class="cosmos-1">
+					<a class="cosmos-1" href=""> Cosmos</a>
+				</div>
+
+				<div class="header-1-menu">
+				<a class="mars" href=""> Mars</a>
+				</div>
+				<div class="header-1-menu">
+				<a class="earth" href=""> Earth</a>
+				</div>
+				<div class="header-1-menu">
+				<a class="moon" href=""> Moon</a>
+				</div>
+				<div class="header-1-menu">
+				<a class="sun" href=""> Sun</a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="header-2">
+
+				<div class="header-menu">
+					<a href=""> Cosmos</a>
+				</div>
+
+				<div class="header-menu">
+				<a href=""> Earth</a>
+				</div>
+				<div class="header-menu">
+				<a href=""> Mars</a>
+				</div>
+				<div class="header-menu">
+				<a href=""> Moon</a>
+				</div>
+				<div class="header-menu">
+				<a href=""> Sun</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="foot">
+			<div class="footage">
+				<button>the solar system</button>
+				<div class="foot-menu">
+					<a href="#"> Cosmos</a>
+					<a href=""> Earth</a>
+					<a href=""> Mars</a>
+					<a href=""> Moon</a>
+					<a href=""> Sun</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

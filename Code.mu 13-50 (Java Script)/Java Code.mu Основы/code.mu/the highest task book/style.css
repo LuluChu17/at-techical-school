@@ -1,0 +1,32 @@
+#wrap {
+    line-height: 50px;
+}
+
+#head-menu-1 {
+    /* word-spacing: 10px; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#head-menu-2 span {
+    /* word-spacing: 10px; */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#head-menu-3 {
+    /* word-spacing: 10px; */
+    letter-spacing: -1px;
+}
+
+#head-menu-4 {
+    word-spacing: 3px;
+}
+
+#head-menu-5 {
+    word-spacing: 0px;
+}
+
+#eight {
+    text-transform: capitalize;
+}

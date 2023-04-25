@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form</title>
+</head>
+<body>
+	<div class="page" id="page">
+		<div class="box-up">
+			<div class="box">
+				<div class="header">
+					<div class="header-line">
+
+						<div class="header-name">
+							Обработка формы &nbsp;&mdash;&nbsp;Mozilla Firefox
+						</div>
+
+						<div class="header-x">
+							<a class="header-x-a" href="index1.html">
+								<img alt="Закрыть" class="header-x-mg" src="cross.png">
+							</a>
+						</div>
+					</div>
+
+					<div class="header-tab">
+
+						<div class="tab-firefox">
+							<a href="https://www.youtube.com/watch?v=adGcXqU8eik">Sea Pearl - Music</a>
+						</div>
+
+						<a href="#"><div class="tab-form">
+							<div class="square"></div>
+							Обработка формы
+						</div></a>
+
+						<div class="tab-plus">
+							<a href="https://vk.com/muraviaaa"><img alt="Перейти в ВК" class="tab-plus-mg" src="plus1.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="main">
+					<div class="body">
+
+						<div class="body-title">
+							Форма регистрации пользователя
+						</div>
+					</div>
+
+					<div class="body-margin-top">
+						<div class="body-box">
+							
+							<form action="mailto:cninia14@mail.ru" method="post" enctype="text/plain">
+							<!-- 	INP-1	 -->
+							<div class="inp-1-1">
+
+								<div class="label"><label for="name">Ваше имя:</label></div>
+								<div class="inp-1-2">
+									<input class="input-text1" type="text" name="name" placeholder="Как вас зовут?" id="name" required>
+								</div>
+
+								<div class="label"><label for="code">Пароль:</label></div>
+								<div class="inp-1-2">
+									<input class="input-text1" type="text" name="code" placeholder="Придумайте пароль" id="code" required>
+								</div>
+
+								<div class="label"><label for="old">Возраст:</label></div>
+								<div class="inp-1-2">
+									<input class="input-text1" type="text" name="old" id="old" placeholder="Сколько вам лет?" required>
+								</div>
+							</div>
+							<!-- 	INP-2	 -->
+							<div class="inp-2-1">
+								<div class="label"><label for="cnt-sex">Пол:</label></div>
+								<input class="cnt-2-1" type="radio" name="cnt-sex" id="cnt-sex" value="Мужской">Мужской&nbsp;&nbsp;&nbsp;
+								<input class="cnt-2-1" type="radio" name="cnt-sex" value="Женский">Женский&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</div>
+
+							<div class="inp-2-2">
+								<div class="label"><label for="cnt-hobby">Ваши увлечения:</label></div>
+								<input class="cnt-2-2" type="radio" name="cnt-hobby" id="cnt-hobby" value="Музыка">Музыка&nbsp;&nbsp;&nbsp;
+								<input class="cnt-2-2" type="radio" name="cnt-hobby" value="Игры">Игры&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input class="cnt-2-2" type="radio" name="cnt-hobby" value="Программирование">Программирование&nbsp;&nbsp;&nbsp;
+							</div>
+							<!-- 	INP-3	 -->
+							<div class="inp-3">
+								<div class="label"><label for="country">Ваша страна:</label></div>
+								<select class="inp-3-1" name="country" id="country" size="1">
+									<option value="ru">Russia</option>
+									<option value="jpn">Japan</option>
+									<option value="usa">USA</option>
+								</select>
+							</div>
+
+							<div class="inp-3">
+								<div class="label"><label for="town">Ваш город:</label></div>
+								<select class="inp-3-2" name="town" id="town" size="1">
+									<option value="kzl">Kyzyl</option>
+									<option value="kyoto">Kyoto</option>
+									<option value="clrd">Colorado</option>
+								</select>
+							</div>
+
+							<div class="inp-4">
+								<div class="label"><label for="aboutself" class="">Кратко о себе:</label></div>
+								<input class="inp-4-1" type="text" name="aboutself" id="aboutself" placeholder="Как дела?">
+							</div>
+
+								<div class="label"><label for="task">Решите пример и запишите результат в поле ниже:</label></div>
+								<div class="margin">
+									<input class="input-text" type="text" name="task" id="task" placeholder="Ответ">
+								</div>
+
+								<br>
+
+								<div class="align">
+									<input class="submit" type="submit" name="cancel" value="Отменить ввод">
+									<input class="submit" type="submit" name="yes" value="Данные подтверждаю">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
